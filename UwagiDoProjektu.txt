@@ -1,0 +1,6 @@
+
+
+1. Panel logowania jest jak by wstepna konfiguracja konta , aby sie zalogowac wystarczy podac  w adresie Email tylko " @" oraz "." , reszta pol moze byc pusta(Na potrzeby testowania projektu)
+2. wprzypadku wysylania zamowienia na gmail nalez ustawic na poczcie "akceptacje tresci z malo zabezpieczonych zrodel" nie wiem jak to wyglada w przypadku innych serwisow
+3.Historia zamowien wypisywana jest lokalnie uzytkownik ma do niej dostep z poziomu sowjego meila , uznalem ze nie ma sensu implementowac jej jako dodatkowy plik XML czy TXT 
+  na dysku.
