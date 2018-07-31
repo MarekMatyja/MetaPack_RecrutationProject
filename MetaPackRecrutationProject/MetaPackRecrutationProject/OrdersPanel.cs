@@ -324,7 +324,7 @@ namespace MetaPackRecrutationProject
             {
                 WrongConfText.Visible = true;
                 WrongConfText.ForeColor = Color.Red;
-                WrongConfText.Text = "Skonfiguruj poprawnie swoje dane poprawnie oraz podaj Email odbiorcy";
+                WrongConfText.Text = "Twoje dane nie sa kompletne lub nie podales adresu odbiorcy";
             }
             index++;
            
