@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetaPackRecrutationProject.exe" size="30184">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetaPackRecrutationProject.exe" size="30696">
       <assemblyIdentity name="MetaPackRecrutationProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nrb+Fl6nHwJjGQ8Om3tXei6tFoZzQOux6tTYhXaL06Q=</dsig:DigestValue>
+        <dsig:DigestValue>hovEX84sQpkddSmoWaaN7LmMksWz6wKSVZV2JqB09ts=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

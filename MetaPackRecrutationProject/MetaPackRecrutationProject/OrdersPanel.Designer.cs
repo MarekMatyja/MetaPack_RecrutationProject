@@ -242,7 +242,7 @@
             // WrongConfText
             // 
             this.WrongConfText.AutoSize = true;
-            this.WrongConfText.Location = new System.Drawing.Point(901, 404);
+            this.WrongConfText.Location = new System.Drawing.Point(822, 404);
             this.WrongConfText.Name = "WrongConfText";
             this.WrongConfText.Size = new System.Drawing.Size(35, 13);
             this.WrongConfText.TabIndex = 23;
@@ -282,7 +282,7 @@
             this.HistoryDetails.Location = new System.Drawing.Point(351, 420);
             this.HistoryDetails.Multiline = true;
             this.HistoryDetails.Name = "HistoryDetails";
-            this.HistoryDetails.Size = new System.Drawing.Size(152, 229);
+            this.HistoryDetails.Size = new System.Drawing.Size(211, 229);
             this.HistoryDetails.TabIndex = 26;
             // 
             // OrdersPanel

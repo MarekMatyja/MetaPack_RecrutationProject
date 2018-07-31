@@ -79,7 +79,7 @@ namespace MetaPackRecrutationProject
             SummarList.Columns.Add("Suma", 70);
 
 
-            //--------historai zamowien
+            //--------historai zamowien konfiguracja
             OrdersHistory.View = View.Details;
             OrdersHistory.FullRowSelect = true;
             OrdersHistory.GridLines = true;
@@ -90,7 +90,7 @@ namespace MetaPackRecrutationProject
             OrdersHistory.Columns.Add("Godzina", 100);
             OrdersHistory.Columns.Add("Laczna Kwota",100);
             
-            //dataGridView1.Columns[4].Name = "Szczegoly Zamowienia";
+            
 
             
 
@@ -307,7 +307,7 @@ namespace MetaPackRecrutationProject
                 arrHistory[0] = index.ToString();
                 arrHistory[1] = Date.Text;
                 arrHistory[2] = Time.Text;
-                arrHistory[3] = TotalSum.ToString();
+                arrHistory[3] = TotalSum.ToString()+ ".00 zl";
                 arrHistory[4] = SummaryBoxIteams;
                 iteamHistory = new ListViewItem(arrHistory);
                 OrdersHistory.Items.Add(iteamHistory);
@@ -324,7 +324,7 @@ namespace MetaPackRecrutationProject
             {
                 WrongConfText.Visible = true;
                 WrongConfText.ForeColor = Color.Red;
-                WrongConfText.Text = "Skonfiguruj poprawnie swoje dane";
+                WrongConfText.Text = "Skonfiguruj poprawnie swoje dane poprawnie oraz podaj Email odbiorcy";
             }
             index++;
            

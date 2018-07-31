@@ -95,9 +95,9 @@
             this.pass.AutoSize = true;
             this.pass.Location = new System.Drawing.Point(150, 133);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(62, 13);
+            this.pass.Size = new System.Drawing.Size(146, 13);
             this.pass.TabIndex = 6;
-            this.pass.Text = "Podaj haslo";
+            this.pass.Text = "Podaj haslo do swojego meila";
             // 
             // passText
             // 
