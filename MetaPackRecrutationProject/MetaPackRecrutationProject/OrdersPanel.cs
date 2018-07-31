@@ -48,7 +48,7 @@ namespace MetaPackRecrutationProject
             //passing data from login panel
             ClientName.Text = LoginPanel.ControllID.IdName;
            
-
+            //   system updatowanie NIE UZYWAC ZA CZESTO
             timer = new Timer();
             timer.Interval = 1000;
             timer.Tick += new EventHandler(Timer_Tick);
@@ -56,20 +56,20 @@ namespace MetaPackRecrutationProject
 
             Date.Text = DateTime.Now.ToShortDateString();
             Time.Text = DateTime.Now.ToString("HH:mm:ss");
-
+            //--------------
             WrongConfText.Visible = false;
-
-
+            
+            //-- ZABLOKOWANIE LACZNEJ SUMY PRZED FIZYCZNYM NADPISYWANIEM
             Sum.Enabled = false;
 
-            SummarList.Sorting = SortOrder.Ascending;
+            //--- WCZYTANIE GLOWNEJ LISTY PRODUKTOW
 
             MainList.DataSource = ListData.MaineGroupData;
 
-          
 
+            //----------- KONFIGURACJI LISTY SUMUJACEJ
 
-
+            SummarList.Sorting = SortOrder.Ascending;
             SummarList.View = View.Details;
             SummarList.FullRowSelect = true;
 
